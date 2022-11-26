@@ -6,6 +6,7 @@ num = int(input('Enter a value:- '))
         # body
 # else:
         # body
+
 if num % 2 == 0:
     print('Even Number.')
 else:
