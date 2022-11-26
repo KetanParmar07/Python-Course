@@ -27,9 +27,16 @@ print(l,type(l))
 l[3][0] = [11,22,33,44]
 print(l,type(l))
 
-# Tuple
+# Tuple Data-Type
 t = (11,2,'hello',2+3j,'hgjjj')
 print(t,type(t))
 # t[0] = 'ketan' here tuple data-type is not mutable data-type so it can't be update the tuple value
 #  and tuple data-type is  faster than list data-type
 
+# Dictionary Data-Type
+d = {
+    'course_name': "python",
+    'course_duration': '2 months'
+}
+print(d['course_name'])
+print(d,type(d))
