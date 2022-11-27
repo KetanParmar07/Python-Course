@@ -56,6 +56,8 @@ for i in range(len(string)-1,-1,-1):
 # 9) .isalnum() -> here isalnum function return the true or false value if given string in every character is alphabet or digit or number then return true other wise return false value
 # 10) chr() -> here chr() function return the ASCII value to character
 # 11) ord() -> here ord() function return the character to ASCII value
+# 12) .format() -> here .format function use for when the program run that time in given string new string value add.
+#  and format value store in the {} -> (curly brackets)
 
 print(string.lower())
 print(string.upper())
@@ -64,10 +66,11 @@ print(string.capitalize())
 print(string.find('e'))
 print(string.index('o'))
 
-str1 = 'welcome123'
+str1 = 'welcome {f:<10} to {l:>10} new {m:^10}home'.format(f='Hello',l='our',m=10)
 print(str1.isalpha())
 print(str1.isalpha())
 print(str1.isalnum())
+print(str1)
 
 x = chr(65)
 print(x)
