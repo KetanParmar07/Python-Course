@@ -11,6 +11,15 @@ while i <= 10:
 
 print('------------------------------------------')
 
+# Example of print number 10 to 0
+print('The number from 10 to 0: ')
+i = 10
+while i > 0:
+    print(i)
+    i-=1
+
+print('------------------------------------------')
+
 # Example of multiplication table
 print('Multiplication Table of 3 is = ')
 i = 1
