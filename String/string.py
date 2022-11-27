@@ -27,3 +27,20 @@ print(str[0:7])
 print(str[0:10:2])
 print(str[-1:-10:-1])
 print(str[-1::-1])
+
+# string iteration using loop
+print('The string length is= ',len(string))
+
+for i in range(len(string)):
+    print(string[i])
+
+print('------------------------------------------')
+
+str = string[-1::-1]
+for i in range(len(str)):
+    print(str[i])
+
+# or second method reverse iteration in string
+for i in range(len(string)-1,-1,-1):
+    print(string[i])
+
