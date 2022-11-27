@@ -21,6 +21,21 @@ print('The number from 0 to 10: ')
 for num in range(11):
     print(num)
 
+print('------------------------------------------')
+
+print('The number from 1 to 10: ')
+for num in range(1,11):
+    print(num)
+
+print('------------------------------------------')
+
+print('The number from 1 to 10: ')
+for num in range(1, 11,3):
+    print(num)
+
+print('------------------------------------------')
+
+
 num = int(input('Enter Number which table you want:- '))
 for n in range(1,11):
     print(num,' x ',n,' = ',num*n)
