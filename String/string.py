@@ -20,3 +20,10 @@ print(string[4])
 print(string1[3])
 print(string2[50])
 
+# string slicing example
+str = 'Good, Morning'
+print(str[2])
+print(str[0:7])
+print(str[0:10:2])
+print(str[-1:-10:-1])
+print(str[-1::-1])
