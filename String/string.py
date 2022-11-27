@@ -57,7 +57,7 @@ for i in range(len(string)-1,-1,-1):
 # 10) chr() -> here chr() function return the ASCII value to character
 # 11) ord() -> here ord() function return the character to ASCII value
 # 12) .format() -> here .format function use for when the program run that time in given string new string value add.
-#  and format value store in the {} -> (curly brackets)
+#  and format value store in the {} -> (curly brackets) here line no. 69 in {>10} means right side of given new string range in 10 and {<10} means left side of given new string range in 10 and {^10} means middle part of given new string range in 10
 
 print(string.lower())
 print(string.upper())
