@@ -16,3 +16,7 @@
 # for loop goes to 5-1 = 4
 # and increment by always 2
 
+# Example of for loop given below
+num = int(input('Enter Number which table you want:- '))
+for n in range(1,11):
+    print(num,' x ',n,' = ',num*n)
