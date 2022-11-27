@@ -49,3 +49,9 @@ for i in range(len(string)-1,-1,-1):
 # 2) .upper() -> convert given string in upper-case letter
 # 3) .title() -> convert given string all word first letter into upper-case letter
 # 4) .capitalize() -> convert given string sentence only first letter in upper-case and all other word first letter in lower case format
+
+
+print(string.lower())
+print(string.upper())
+print(string.title())
+print(string.capitalize())
