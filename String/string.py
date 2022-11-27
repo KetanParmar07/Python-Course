@@ -49,9 +49,14 @@ for i in range(len(string)-1,-1,-1):
 # 2) .upper() -> convert given string in upper-case letter
 # 3) .title() -> convert given string all word first letter into upper-case letter
 # 4) .capitalize() -> convert given string sentence only first letter in upper-case and all other word first letter in lower case format
-
+# 5) .find() -> here find function return the search particular character index value
+# 6) .index() ->
+# 7) .isalpha() ->
+# 8) .isdigit() ->
+# 9) .isalnum() ->
 
 print(string.lower())
 print(string.upper())
 print(string.title())
 print(string.capitalize())
+print(string.find('e'))
