@@ -21,12 +21,12 @@ print(string1[3])
 print(string2[50])
 
 # string slicing example
-str = 'Good, Morning'
-print(str[2])
-print(str[0:7])
-print(str[0:10:2])
-print(str[-1:-10:-1])
-print(str[-1::-1])
+str1 = 'Good, Morning'
+print(str1[2])
+print(str1[0:7])
+print(str1[0:10:2])
+print(str1[-1:-10:-1])
+print(str1[-1::-1])
 
 # string iteration using loop
 print('The string length is= ',len(string))
@@ -36,9 +36,9 @@ for i in range(len(string)):
 
 print('------------------------------------------')
 
-str = string[-1::-1]
-for i in range(len(str)):
-    print(str[i])
+str1 = string[-1::-1]
+for i in range(len(str1)):
+    print(str1[i])
 
 # or second method reverse iteration in string
 for i in range(len(string)-1,-1,-1):
@@ -49,14 +49,20 @@ for i in range(len(string)-1,-1,-1):
 # 2) .upper() -> convert given string in upper-case letter
 # 3) .title() -> convert given string all word first letter into upper-case letter
 # 4) .capitalize() -> convert given string sentence only first letter in upper-case and all other word first letter in lower case format
-# 5) .find() -> here find function return the search particular character index value
-# 6) .index() ->
-# 7) .isalpha() ->
-# 8) .isdigit() ->
-# 9) .isalnum() ->
+# 5) .find() -> here find function return the search particular character index value and character is not found then return -1
+# 6) .index() -> here index function return the index value for particular character or character is not found the get error
+# 7) .isalpha() -> here isalpha function return the true or false value if given string in every character is alphabet then return true other wise return false value
+# 8) .isdigit() -> here isdigit function return the true or false value if given string in every character is digit then return true other wise return false value
+# 9) .isalnum() -> here isalnum function return the true or false value if given string in every character is alphabet or digit or number then return true other wise return false value
 
 print(string.lower())
 print(string.upper())
 print(string.title())
 print(string.capitalize())
 print(string.find('e'))
+print(string.index('o'))
+
+str1 = 'welcome123'
+print(str1.isalpha())
+print(str1.isalpha())
+print(str1.isalnum())
