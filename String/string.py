@@ -44,3 +44,8 @@ for i in range(len(str)):
 for i in range(len(string)-1,-1,-1):
     print(string[i])
 
+# different string in-built function given below
+# 1) .lower() -> convert given string in lower-case letter
+# 2) .upper() -> convert given string in upper-case letter
+# 3) .title() -> convert given string all word first letter into upper-case letter
+# 4) .capitalize() -> convert given string sentence only first letter in upper-case and all other word first letter in lower case format
