@@ -17,6 +17,10 @@
 # and increment by always 2
 
 # Example of for loop given below
+print('The number from 0 to 10: ')
+for num in range(11):
+    print(num)
+
 num = int(input('Enter Number which table you want:- '))
 for n in range(1,11):
     print(num,' x ',n,' = ',num*n)
