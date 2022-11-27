@@ -54,6 +54,8 @@ for i in range(len(string)-1,-1,-1):
 # 7) .isalpha() -> here isalpha function return the true or false value if given string in every character is alphabet then return true other wise return false value
 # 8) .isdigit() -> here isdigit function return the true or false value if given string in every character is digit then return true other wise return false value
 # 9) .isalnum() -> here isalnum function return the true or false value if given string in every character is alphabet or digit or number then return true other wise return false value
+# 10) chr() -> here chr() function return the ASCII value to character
+# 11) ord() -> here ord() function return the character to ASCII value
 
 print(string.lower())
 print(string.upper())
@@ -66,3 +68,8 @@ str1 = 'welcome123'
 print(str1.isalpha())
 print(str1.isalpha())
 print(str1.isalnum())
+
+x = chr(65)
+print(x)
+y = ord('A')
+print(y)
