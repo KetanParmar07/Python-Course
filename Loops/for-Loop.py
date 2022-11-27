@@ -35,7 +35,7 @@ for num in range(1, 11,3):
 
 print('------------------------------------------')
 
-
+# multiplication table example
 num = int(input('Enter Number which table you want:- '))
 for n in range(1,11):
     print(num,' x ',n,' = ',num*n)
