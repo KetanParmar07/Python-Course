@@ -35,6 +35,11 @@ for num in range(1, 11,3):
 
 print('------------------------------------------')
 
+# for loop decrement manner example
+print('The number from 10 to 0: ')
+for n in range(10,0,-1):
+    print(n)
+
 # multiplication table example
 num = int(input('Enter Number which table you want:- '))
 for n in range(1,11):
